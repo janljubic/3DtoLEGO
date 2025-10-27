@@ -1,4 +1,4 @@
-# 🧱 3DtoLEGO
+w# 🧱 3DtoLEGO
 
 This project converts 3D models of various cars into LEGO brick–based 3D models.
 
@@ -25,13 +25,13 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 ---
 
-🎞️ Generation Process
+## 🎞️ Generation & Connectivity Process
 
-Generation of the model step by step:
+### 🧱 Model Generation
 
 ![LEGO Model Generation](images/Progression/progression.gif)
 
-Connectivity algorithm in action:
+### 🔗 Connectivity Algorithm
 
 ![Connectivity algorithm](results/Progression/connectivity_algorithm.gif)
 
