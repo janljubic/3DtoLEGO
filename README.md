@@ -33,7 +33,7 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 ### 🔗 Connectivity Algorithm
 
-![Connectivity algorithm](results/Progression/connectivity_algorithm.gif)
+![Connectivity algorithm](images/Progression/connectivity_algorithm.gif)
 
 ---
 
