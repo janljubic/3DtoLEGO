@@ -29,7 +29,7 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 ### 🧱 Model Generation
 
-![LEGO Model Generation](<img src="images/Progression/progression.giff" width="400">)
+![LEGO Model Generation](<img src="images/Progression/progression.gif" width="400">)
 
 ### 🔗 Connectivity Algorithm
 
