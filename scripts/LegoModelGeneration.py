@@ -1,6 +1,6 @@
 import sys
 # change path to your scripts folder
-sys.path.append("C:\\FRI\\DIPLOMA\\Scripts")
+sys.path.append("./scripts")
 import time
 import numpy as np
 import random
@@ -877,4 +877,5 @@ print(f"Full generation: {full_time:.3f} seconds.")
 
 # reset the brick ID and clear all invisible (temporary) bricks from the scene
 Brick.id = 0
+
 HelperFunctions.clear_invisible_bricks()
