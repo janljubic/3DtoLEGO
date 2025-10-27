@@ -29,11 +29,11 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 ### 🧱 Model Generation
 
-<img src="images/Progression/progression.gif" width="400">
+<img src="images/Progression/progression.gif" width="1000">
 
 ### 🔗 Connectivity Algorithm
 
-![Connectivity algorithm](images/Progression/connectivity_algorithm.gif)
+<img src="images/Progression/connectivity_algorithm.gif" width="1000">
 
 ---
 
