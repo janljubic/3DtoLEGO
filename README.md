@@ -1,4 +1,4 @@
-w# 🧱 3DtoLEGO
+# 🧱 3DtoLEGO
 
 This project converts 3D models of various cars into LEGO brick–based 3D models.
 
