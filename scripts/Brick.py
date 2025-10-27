@@ -1,6 +1,6 @@
 import sys
 # change path to your scripts folder
-sys.path.append("C:\\FRI\\DIPLOMA\\Scripts")
+sys.path.append("./scripts")
 from mathutils import Euler
 from pathlib import Path
 import bpy
@@ -456,4 +456,5 @@ class Brick:
                 bpy.data.objects.remove(object, do_unlink=True)
                 break
         else:
+
             print(f"No brick found with ID {self.id}.")
