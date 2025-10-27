@@ -1,6 +1,6 @@
 import sys
 # change path to your scripts folder
-sys.path.append("C:\\FRI\\DIPLOMA\\Scripts")
+sys.path.append("./scripts")
 from mathutils import Vector, Euler
 from Brick import Brick, Orientation
 from enum import Enum
@@ -746,4 +746,5 @@ def clear_invisible_bricks():
                 parent.children.unlink(parent.children[collection.name])
 
         # remove the collection itself
+
         bpy.data.collections.remove(collection)
