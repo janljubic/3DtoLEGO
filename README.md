@@ -4,7 +4,6 @@ This project converts 3D models of various cars into LEGO brick–based 3D model
 
 It was primarily developed as part of my **bachelor's thesis** at the *Faculty of Computer and Information Science, University of Ljubljana*, and later published as a **research paper** with *doc. dr. Ciril Bohak* at the *International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG) 2025*.
 
----
 
 ## 📁 Project Contents
 
@@ -14,7 +13,6 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 | `brick_models/` | A selection of all usable LEGO bricks |
 | `.zip` files | 3D models, voxelized models, and component models of various cars |
 
----
 
 ## 🧩 Requirements
 - [**Blender 4.2.3 LTS**](https://www.blender.org/download/lts/)  
@@ -23,7 +21,6 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 - **Blender Development Extension** for VS Code  
 - Python libraries: [`numpy`](https://pypi.org/project/numpy/), [`scipy`](https://pypi.org/project/scipy/), [`binvox`](https://www.patrickmin.com/binvox/), [`binvox_rw`](https://github.com/dimatura/binvox-rw-py)
 
----
 
 ## 🎞️ Generation & Connectivity Process
 
@@ -35,7 +32,6 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 <img src="images/Progression/connectivity_algorithm.gif" width="1000" alt="Connectivity Algorithm">
 
----
 
 ## 🚀 Setup
 
@@ -51,7 +47,6 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
     ```
     - ⚠️ Note: The binvox_rw package needs to be installed locally because it is not on PyPI (pip install path/to/binvox_rw)
 
----
 
 ## 🖼️ Examples
 
