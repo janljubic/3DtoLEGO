@@ -27,7 +27,13 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 🎞️ Generation Process
 
+Generation of the model step by step:
 
+![LEGO Model Generation](images/Progression/progression.gif)
+
+Connectivity algorithm in action:
+
+![Connectivity algorithm](results/Progression/connectivity_algorithm.gif)
 
 ---
 
