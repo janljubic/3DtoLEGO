@@ -1,2 +1,42 @@
-# 3DtoLEGO
-System for transforming 3D mesh geometry into models composed of LEGO bricks
+# 🧱 3DtoLEGO
+
+This project converts 3D models of various cars into LEGO brick–based 3D models.
+
+It was primarily developed as part of my **bachelor's thesis** at the *Faculty of Computer and Information Science, University of Ljubljana*, and later published as a **research paper** with *doc. dr. Ciril Bohak* at the *International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG) 2025*.
+
+---
+
+## 📁 Project Contents
+
+| Folder / File | Description |
+|----------------|-------------|
+| `scripts/` | Python scripts and required modules |
+| `brick_models/` | A selection of all usable LEGO bricks |
+| `.zip` files | 3D models, voxelized models, and component models of various cars |
+
+---
+
+## 🧩 Requirements
+- [**Blender 4.2.3 LTS**](https://www.blender.org/download/lts/)  
+  *(Other versions may not be fully compatible.)*
+- [**Visual Studio Code**](https://code.visualstudio.com/)
+- **Blender Development Extension** for VS Code  
+- Python libraries: [`numpy`](https://pypi.org/project/numpy/), [`scipy`](https://pypi.org/project/scipy/), [`binvox`](https://www.patrickmin.com/binvox/), [`binvox_rw`](https://github.com/dimatura/binvox-rw-py)
+
+---
+
+## 🚀 Setup
+
+1. **Download and install [Blender](https://www.blender.org/)**  
+   - Version used: **4.2.3 LTS** (newer versions might not be fully compatible)
+2. **Download and install [Visual Studio Code](https://code.visualstudio.com/)**  
+3. Install the **“Blender Development”** extension in VS Code  
+4. Download the **3D models**, **brick_models**, and **scripts** from this repository  
+   - Extract all the .zip files and organize them into a single project folder (some restructuring may be needed)
+5. **Install the following Python libraries** into Blender’s built-in Python interpreter:
+   ```bash
+   pip install numpy scipy binvox
+    ```
+    - ⚠️ Note: The binvox_rw package needs to be installed locally because it is not on PyPI (pip install path/to/binvox_rw)
+
+## Results
