@@ -27,13 +27,13 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 ## 🎞️ Generation & Connectivity Process
 
-### 🧱 Model Generation
+### 🧱 LEGO Model Generation
 
-<img src="images/Progression/progression.gif" width="1000">
+<img src="images/Progression/progression.gif" width="1000" alt="LEGO Model Generation">
 
 ### 🔗 Connectivity Algorithm
 
-<img src="images/Progression/connectivity_algorithm.gif" width="1000">
+<img src="images/Progression/connectivity_algorithm.gif" width="1000" alt="Connectivity Algorithm">
 
 ---
 
