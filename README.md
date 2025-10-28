@@ -53,8 +53,10 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 	- 🗂️ Input 3D model name → inside voxelize_model() in HelperFunctions.py
 	- 📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
 	- 🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
-2. **Launch Blender using the "Blender Development" extenstion (LCTRL + SHIFT + P -> Blender: Start)**
-3. **Run the script "LegoModelGeneration" (LCTRL + SHIFT + P -> Blender: Run Script)**
+2. **Launch Blender using the "Blender Development" extenstion:**
+   	- Shortcut: Ctrl + Shift + P → Blender: Start
+4. **Run the script "LegoModelGeneration":**
+   	- Shortcut: Ctrl + Shift + P → Blender: Run Script
 
 
 ## 🖼️ Examples
