@@ -19,7 +19,11 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
   *(Other versions may not be fully compatible.)*
 - [**Visual Studio Code**](https://code.visualstudio.com/)
 - **Blender Development Extension** for VS Code  
-- Python libraries: [`numpy`](https://pypi.org/project/numpy/), [`scipy`](https://pypi.org/project/scipy/), [`binvox`](https://www.patrickmin.com/binvox/), [`binvox_rw`](https://github.com/dimatura/binvox-rw-py)
+- Python libraries:
+	- [`numpy`](https://pypi.org/project/numpy/)
+	- [`scipy`](https://pypi.org/project/scipy/)
+	- [`binvox`](https://www.patrickmin.com/binvox/)
+	- [`binvox_rw`](https://github.com/dimatura/binvox-rw-py)
 
 
 ## 🎞️ Generation & Connectivity Process
