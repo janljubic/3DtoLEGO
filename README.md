@@ -47,12 +47,12 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
     ```
     - ⚠️ Note: The binvox_rw package needs to be installed locally because it is not on PyPI (pip install path/to/binvox_rw)
 
-## How to use
+## 🧩 How to use
 1. **Choose the model you want to render by changing the following:**
-   	- name of the voxelized model in load_model() in the HelperFunctions.py script
-   	- name of the input 3D model in voxelize_model() in the HelperFunctions.py script
-   	- obj.scale in move_main_object_to_starting_point() in the HelperFunctions.py script
-	   - windscreen in the LegoModelGeneration.py() script (select only one, the taller or the shorter one, comment the other)
+   	🧱 Voxelized model name → inside load_model() in HelperFunctions.py
+	🗂️ Input 3D model name → inside voxelize_model() in HelperFunctions.py
+	📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
+	🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
 2. **Launch Blender using the "Blender Development" extenstion (LCTRL + SHIFT + P -> Blender: Start)**
 3. **Run the script "LegoModelGeneration" (LCTRL + SHIFT + P -> Blender: Run Script)**
 
