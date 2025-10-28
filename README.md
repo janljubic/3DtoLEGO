@@ -49,10 +49,10 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 
 ## 🧩 How to use
 1. **Choose the model you want to render by changing the following:**
-   	🧱 Voxelized model name → inside load_model() in HelperFunctions.py
-	🗂️ Input 3D model name → inside voxelize_model() in HelperFunctions.py
-	📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
-	🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
+	- 🧱 Voxelized model name → inside load_model() in HelperFunctions.py
+	- 🗂️ Input 3D model name → inside voxelize_model() in HelperFunctions.py
+	- 📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
+	- 🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
 2. **Launch Blender using the "Blender Development" extenstion (LCTRL + SHIFT + P -> Blender: Start)**
 3. **Run the script "LegoModelGeneration" (LCTRL + SHIFT + P -> Blender: Run Script)**
 
