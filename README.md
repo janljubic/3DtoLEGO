@@ -33,7 +33,7 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
 <img src="images/Progression/connectivity_algorithm.gif" width="1000" alt="Connectivity Algorithm">
 
 
-## 🚀 Setup
+## ⚙️ Setup
 
 1. **Download and install [Blender](https://www.blender.org/)**  
    - Version used: **4.2.3 LTS** (newer versions might not be fully compatible)
@@ -47,10 +47,10 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
     ```
     - ⚠️ Note: The binvox_rw package needs to be installed locally because it is not on PyPI (pip install path/to/binvox_rw)
 
-## 🧩 How to use
+## 🪜 How to use
 1. **Choose the model you want to render by changing the following:**
 	- 🧱 Voxelized model name → inside load_model() in HelperFunctions.py
-	- 🗂️ Input 3D model name → inside voxelize_model() in HelperFunctions.py
+	- 🚗 Input 3D model name → inside voxelize_model() in HelperFunctions.py
 	- 📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
 	- 🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
 2. **Launch Blender using the "Blender Development" extenstion:**
