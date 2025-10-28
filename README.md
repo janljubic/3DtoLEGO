@@ -39,13 +39,22 @@ It was primarily developed as part of my **bachelor's thesis** at the *Faculty o
    - Version used: **4.2.3 LTS** (newer versions might not be fully compatible)
 2. **Download and install [Visual Studio Code](https://code.visualstudio.com/)**  
 3. Install the **“Blender Development”** extension in VS Code  
-4. Download the **3D models**, **brick_models**, and **scripts** from this repository  
+4. Download the **car models**, **brick models**, and **scripts** from this repository  
    - Extract all the .zip files and organize them into a single project folder (some restructuring may be needed)
 5. **Install the following Python libraries** into Blender’s built-in Python interpreter:
    ```bash
    pip install numpy scipy binvox
     ```
     - ⚠️ Note: The binvox_rw package needs to be installed locally because it is not on PyPI (pip install path/to/binvox_rw)
+
+## How to use
+1. **Choose the model you want to render by changing the following:**
+   	- name of the voxelized model in load_model() in the HelperFunctions.py script
+   	- name of the input 3D model in voxelize_model() in the HelperFunctions.py script
+   	- obj.scale in move_main_object_to_starting_point() in the HelperFunctions.py script
+	   - windscreen in the LegoModelGeneration.py() script (select only one, the taller or the shorter one, comment the other)
+2. **Launch Blender using the "Blender Development" extenstion (LCTRL + SHIFT + P -> Blender: Start)**
+3. **Run the script "LegoModelGeneration" (LCTRL + SHIFT + P -> Blender: Run Script)**
 
 
 ## 🖼️ Examples
