@@ -12,7 +12,7 @@ The code represents a research prototype, and would require additional improveme
 The process of generating a LEGO car model is composed of several steps in the following order:
 
 1. **voxelization** — conversion of the input 3D model into a voxel grid (performed using **binvox**) 
-2. **component mapping** — identification of structural parts such as the cabin, wheels, and lights  
+2. **component mapping** — identification of car components such as the cabin, wheels, body and lights  
 3. **filling with bricks** — iterative placement of LEGO bricks into the voxel grid:  
 	- wheels
 	- cabin
