@@ -338,7 +338,7 @@ def spawn_wheels(connecting_brick, layer_handler, wheel_bricks, brick_texture):
 # spawns the pin for the wheel
 def spawn_pin(wheel_center, voxel_grid, filename):
     # import the brick file with the filepath
-    bpy.ops.import_scene.gltf(filepath=f"C:\\FRI\\DIPLOMA\\Bricks\\glTF\\{filename}")
+    bpy.ops.import_scene.gltf(filepath=f"brick_models\\{filename}")
     
     # get the last imported object (the newly created brick)
     imported_object = bpy.context.selected_objects[0]
@@ -669,7 +669,7 @@ def load_model():
     # rs4_components.glb
 
     # import the model
-    bpy.ops.import_scene.gltf(filepath="C:\\FRI\\DIPLOMA\\Binvox\\r8_components.glb")
+    bpy.ops.import_scene.gltf(filepath="car_models\\r8_components.glb")
     imported_object = bpy.context.selected_objects[0]
     
     # link the model and its children to the correct collection
@@ -692,7 +692,7 @@ def voxelize_model():
     # rs4_rescaled.binvox
 
     # load the .binvox file
-    with open("C:/FRI/DIPLOMA/Binvox/r8_rescaled.binvox", "rb") as f:
+    with open("car_models/r8_rescaled.binvox", "rb") as f:
         model = binvox_rw.read_as_3d_array(f)
 
     # access the voxel data
@@ -748,3 +748,4 @@ def clear_invisible_bricks():
         # remove the collection itself
 
         bpy.data.collections.remove(collection)
+
