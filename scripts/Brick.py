@@ -35,7 +35,7 @@ class Windscreen:
 
     # spawns the windscreen on the input coordinates
     def spawn_windscreen(self, x, y, z):
-        file_path = f"C:\\FRI\\DIPLOMA\\Bricks\\glTF\\{self.filename}"
+        file_path = f"brick_models\\{self.filename}"
 
         # check if the brick file exists
         if (Path(file_path).is_file()):
@@ -74,7 +74,7 @@ class Wheel:
     def spawn_wheel(self, wheel_center, voxel_grid):
         # create a brick with a reference if one doesn't exist yet
         if self.wheel_reference == None:
-            file_path = f"C:\\FRI\\DIPLOMA\\Bricks\\glTF\\{self.filename}"
+            file_path = f"brick_models\\{self.filename}"
 
             # check if the brick file exists
             if (Path(file_path).is_file()):
@@ -378,7 +378,7 @@ class Brick:
     def spawn_brick(self, x, y, z, material):
         # create a brick with a reference if one doesn't exist yet
         if self.brick_reference == None:
-            file_path = f"C:\\FRI\\DIPLOMA\\Bricks\\glTF\\{self.filename}"
+            file_path = f"brick_models\\{self.filename}"
 
             # check if the brick file exists
             if (Path(file_path).is_file()):
@@ -458,3 +458,4 @@ class Brick:
         else:
 
             print(f"No brick found with ID {self.id}.")
+
