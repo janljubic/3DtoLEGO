@@ -59,9 +59,10 @@ The code represents a research prototype, and would require additional improveme
 	- 🚗 Input 3D model name → inside voxelize_model() in HelperFunctions.py
 	- 📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
 	- 🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
+ 		- ⚠️ Note: Additional pathing adjustement is needed for some files (absolute path for reading the brick and car models).
 2. **Launch Blender using the "Blender Development" extenstion:**
    	- Shortcut: Ctrl + Shift + P → Blender: Start
-4. **Run the script "LegoModelGeneration":**
+3. **Run the script "LegoModelGeneration":**
    	- Shortcut: Ctrl + Shift + P → Blender: Run Script
 
 
