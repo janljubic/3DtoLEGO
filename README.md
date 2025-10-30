@@ -1,10 +1,26 @@
 # 🧱 3DtoLEGO
 
-This project converts 3D models of various cars into LEGO brick–based 3D models.
+This project converts 3D car models into LEGO structurally sound LEGO brick–based 3D representations.
 
 It was primarily developed as part of my **bachelor's thesis** at the *Faculty of Computer and Information Science, University of Ljubljana*, and later published as a **research paper** with *doc. dr. Ciril Bohak* at the *International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG) 2025*.
 
 The code represents a research prototype, and would require additional improvements and optimizations to become a complete and usable application — such as machine learning–based brick fitting, simplified installation, integrated voxelization, and overall structural cleanup.
+
+
+## 🗺️ Project overview
+
+The process of generating a LEGO car model is composed of several steps:
+	- voxelization (accomplished using **binvox**)
+	- component mapping
+	- filling with bricks
+		- wheels
+		- cabin
+		- sloped bricks
+		- smooth bricks
+		- thick bricks (3 LEGO units)
+		- thin bricks (1 LEGO unit)
+		- lights
+	- fixing model connectivity
 
 
 ## 📁 Project Contents
@@ -59,8 +75,8 @@ The code represents a research prototype, and would require additional improveme
 	- 🚗 Input 3D model name → inside voxelize_model() in HelperFunctions.py
 	- 📏 Model scale → modify obj.scale in move_main_object_to_starting_point() in HelperFunctions.py
 	- 🪟 Windscreen selection → in LegoModelGeneration.py, choose either the taller or shorter windscreen (comment out the other one)
- 		- ⚠️ Note: Additional pathing adjustement is needed for some files (absolute path for reading the brick and car models).
-2. **Launch Blender using the "Blender Development" extenstion:**
+ 		- ⚠️ Note: Additional pathing adjustment is needed for some files (absolute path for reading the brick and car models).
+2. **Launch Blender using the "Blender Development" extension:**
    	- Shortcut: Ctrl + Shift + P → Blender: Start
 3. **Run the script "LegoModelGeneration":**
    	- Shortcut: Ctrl + Shift + P → Blender: Run Script
