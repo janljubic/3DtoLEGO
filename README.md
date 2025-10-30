@@ -4,6 +4,8 @@ This project converts 3D models of various cars into LEGO brick–based 3D model
 
 It was primarily developed as part of my **bachelor's thesis** at the *Faculty of Computer and Information Science, University of Ljubljana*, and later published as a **research paper** with *doc. dr. Ciril Bohak* at the *International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG) 2025*.
 
+The code represents a research prototype, and would require additional improvements and optimizations to become a complete and usable application — such as machine learning–based brick fitting, simplified installation, integrated voxelization, and overall structural cleanup.
+
 
 ## 📁 Project Contents
 
