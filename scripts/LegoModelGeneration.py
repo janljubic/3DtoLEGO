@@ -86,7 +86,7 @@ smooth_bricks = {
     "6x6x1": Brick(6, 6, 1, "6x6x1_smooth.glb"),
 }
 
-#custom_kernel_origins sequence: NORTH, SOUTH, WEST, EAST
+# custom_kernel_origins sequence: NORTH, SOUTH, WEST, EAST
 sloped_bricks = {
     "2x1x2": Brick(2, 1, 2, "2x1x2_sloped_smooth.glb", SlopedOrientation, Smooth.SLOPED, 
                     [(0, 0, 0), (1, 0, 1)], 
@@ -608,7 +608,7 @@ def connect_subgraphs(neighboring_bricks_subgrid, empty_subgrid, mapping_subgrid
                 layer_handler.update_voxel_grid(spawned_brick, x_pos, y_pos, z_pos)
                 layer_handler.update_used_bricks_grid(spawned_brick, x_pos, y_pos, z_pos)
 
-                # check for connected bricks am
+                # check for connected bricks
                 HelperFunctions.determine_connected_bricks(layer_handler, spawned_brick)
 
 # connects all unconnected bricks with the model
@@ -879,3 +879,4 @@ print(f"Full generation: {full_time:.3f} seconds.")
 Brick.id = 0
 
 HelperFunctions.clear_invisible_bricks()
+
