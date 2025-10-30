@@ -261,7 +261,6 @@ def spawn_wheels(connecting_brick, layer_handler, wheel_bricks, brick_texture):
         layer_handler.update_voxel_grid(connecting_brick, x_index, y_index, z_index)
         layer_handler.update_used_bricks_grid(connecting_brick, x_index, y_index, z_index)
         determine_connected_bricks(layer_handler, connecting_brick)
-        # POGLEJ ZAKVA MA TAPRU SPAWNAN BRICK ORIGIN NA SRED FOR SOME REASON
 
         return x_index, y_index, z_index
 
@@ -748,4 +747,5 @@ def clear_invisible_bricks():
         # remove the collection itself
 
         bpy.data.collections.remove(collection)
+
 
